@@ -1,0 +1,76 @@
+---
+title: "论 拒绝被线性表出——"
+subtitle: "从线性代数看职场不可替代性的数学原理"
+author: "壬千一"
+date: last-modified
+lang: en
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    fontsize: 1.1em
+    linestretch: 1.6
+    mainfont: "Helvetica Neue, Arial, PingFang SC, Microsoft YaHei, sans-serif"
+    include-in-header:
+      - text: |
+          <style>
+            /* --- 主标题设置 --- */
+            #title-block-header h1.title {
+              font-size: 2.4em;
+              font-weight: 800;
+              margin-bottom: 0.2em;
+              color: #111;
+            }
+            /* --- 副标题设置 --- */
+            #title-block-header p.subtitle {
+              font-size: 1.6em;
+              font-weight: 600;
+              color: #555;
+              margin-top: 0.2em;
+              margin-bottom: 1em;
+            }
+
+            /* --- 正文章节标题设置 --- */
+            /* 注意：这里排除掉 title-block，只针对正文里的 H1 */
+            main h1, section h1 {
+              font-size: 1.5em;        /* 章节标题 */
+              font-weight: 700;
+              margin-top: 1.2em;
+              margin-bottom: 0.8em;
+            }
+            h2 {
+              font-size: 1.2em;        /* 二级标题 */
+              font-weight: 600;
+              margin-top: 1.2em;
+              border-bottom: 1px solid #eee;
+              padding-bottom: 0.3em;
+            }
+
+            /* --- 摘要样式设置 --- */
+            .paper-abstract {
+              margin: 2em 0;
+              padding: 1.5em;
+              background-color: #f8f9fa;
+              border-top: 3px solid #333; /* 顶部线加粗，呼应大标题 */
+              border-bottom: 1px solid #ddd;
+              font-family: "Georgia", "Times New Roman", serif;
+              font-size: 0.95em;
+              line-height: 1.6;
+              color: #333;
+              text-align: justify;
+            }
+            .paper-abstract strong { color: #000; font-weight: 700; }
+
+            /* --- 复盘板块设置 --- */
+            .review-box {
+              background-color: #f0f7fb;
+              border-left: 5px solid #007bff;
+              padding: 1.5em;
+              margin-top: 1em;
+              border-radius: 4px;
+            }
+            .review-box h3 { font-size: 1.2em; font-weight: bold; margin-top: 0; }
+          </style>
+---
+

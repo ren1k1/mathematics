@@ -9,31 +9,32 @@ format:
     theme: cosmo
     toc: true
     number-sections: true
-    fontsize: 1.3em
+    fontsize: 1.1em
     linestretch: 1.6
     mainfont: "Helvetica Neue, Arial, PingFang SC, Microsoft YaHei, sans-serif"
     include-in-header:
       - text: |
           <style>
-            /* --- 1. 文档主标题设置 (放大) --- */
+            /* --- 主标题设置 --- */
             #title-block-header h1.title {
-              font-size: 2.4em;        /* 主标题设为 2.8倍，非常醒目 */
-              font-weight: 800;        /* 特别加粗 */
+              font-size: 2.4em;
+              font-weight: 800;
               margin-bottom: 0.2em;
               color: #111;
             }
+            /* --- 副标题设置 --- */
             #title-block-header p.subtitle {
-              font-size: 1.6em;        /* 副标题设为 1.6倍 */
+              font-size: 1.6em;
               font-weight: 600;
-              color: #555;             /* 稍微灰一点，显出层次 */
+              color: #555;
               margin-top: 0.2em;
               margin-bottom: 1em;
             }
 
-            /* --- 2. 正文章节标题设置 (保持之前的缩小) --- */
+            /* --- 正文章节标题设置 --- */
             /* 注意：这里排除掉 title-block，只针对正文里的 H1 */
             main h1, section h1 {
-              font-size: 1.5em;        /* 章节标题保持克制 */
+              font-size: 1.5em;        /* 章节标题 */
               font-weight: 700;
               margin-top: 1.2em;
               margin-bottom: 0.8em;
@@ -46,12 +47,12 @@ format:
               padding-bottom: 0.3em;
             }
 
-            /* --- 3. 摘要样式 --- */
+            /* --- 摘要样式设置 --- */
             .paper-abstract {
               margin: 2em 0;
               padding: 1.5em;
               background-color: #f8f9fa;
-              border-top: 3px solid #333; /* 顶部线加粗一点，呼应大标题 */
+              border-top: 3px solid #333; /* 顶部线加粗，呼应大标题 */
               border-bottom: 1px solid #ddd;
               font-family: "Georgia", "Times New Roman", serif;
               font-size: 0.95em;
@@ -61,7 +62,7 @@ format:
             }
             .paper-abstract strong { color: #000; font-weight: 700; }
 
-            /* --- 4. 复盘板块样式 --- */
+            /* --- 复盘板块设置 --- */
             .review-box {
               background-color: #f0f7fb;
               border-left: 5px solid #007bff;
